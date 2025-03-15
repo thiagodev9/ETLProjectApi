@@ -14,7 +14,7 @@ headers= {
     "Authorization":f"Bearer {openai_api_key}"
 }
 
-response = requests.get(url, headers=headers)
+
 data = {
     "model": "gpt-3.5-turbo",
     "messages": [{"role": "user", "content": "Qual é a capital da França?"}]
